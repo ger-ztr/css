@@ -1,0 +1,67 @@
+body {
+    background-color: #e9ecef; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.kontener_miks {
+    background-color: #ffffff; 
+    border: 3px solid #17a2b8; 
+    border-radius: 8px; 
+    padding: 25px;
+    max-width: 800px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+h1 {
+    color: #2b2b2b;
+    font-size: 22pt;
+    margin-top: 0;
+}
+
+.autor {
+    color: #495057;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.data {
+    color: #6c757d;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.ramka_blokowa {
+    display: block;
+    background-color: #fff3cd; 
+    color: #856404;
+    border: 4px double #28a745;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ramka_blokowa h2 {
+    margin-top: 0;
+    font-size: 16pt;
+    border-bottom: 1px solid #856404;
+    padding-bottom: 5px;
+}
+
+.ramka_liniowa {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-left: 5px solid #dc3545; 
+}
+
+.wyrozny_span {
+    background-color: #343a40;
+    color: #ffffff; 
+    font-weight: bold;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 11px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Shyshlakov Z19_html</title>
+    <link rel="stylesheet" type="text/css" href="zadanie19_shys.css">
+</head>
+<body>
+
+    <h1 align="center">Zadanie 19 </h1>
+    <p style="text-align: center;">
+        Autor: Ivan Shyshlakov, klasa 2F
+    </p>
+    <hr>
+
+    <h2>1. Przykład łamania kaskadowości (!important)</h2>
+    <h6 class="test_important" style="color: red; background-color: yellow;">
+        Ten tytuł h6 powinien być czerwony (z racji stylu inline), ale jest niebieski, ponieważ w zewnętrznym arkuszu CSS zastosowano regułę !important. Tło natomiast pozostało żółte.
+    </h6>
+
+    <h2>2. Przykład stylu lokalnego (inline)</h2>
+    <p style="font-family: Arial; font-size: 25px; color: #008000;">
+        Ten akapit został sformatowany bezpośrednio w znaczniku za pomocą stylu wpisanego (inline). Ma czcionkę Arial, wielkość 25px i zielony kolor, co nadpisuje standardowe ustawienia.
+    </p>
+
+    <h2>3. Prezentacja bloku DIV i SPAN</h2>
+    <div style="background-color: #e0e0e0; padding: 10px; margin-bottom: 10px;">
+        To jest wydzielony blok <strong>DIV</strong>. Służy do strukturyzowania obszerniejszych sekcji strony i domyślnie zaczyna się od nowej linii.
+    </div>
+
+    <p>
+        Wewnątrz tego standardowego akapitu użyliśmy znacznika <span style="color: magenta; font-weight: bold;">SPAN</span>, aby wyróżnić ten konkretny fragment tekstu kolorem magenty bez rozbijania linii dokumentu.
+    </p>
+
+    </body>
+</html>
